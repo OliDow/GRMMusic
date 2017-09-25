@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GrmMusic.Domain\GrmMusic.Domain.csproj" />
+    <ProjectReference Include="..\GrmMusic.Infrastructure\GrmMusic.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

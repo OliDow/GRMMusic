@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrmMusic.App", "GrmMusic.App\GrmMusic.App.csproj", "{BEB235B2-4FCC-4AF8-A38A-205BDE3BD03B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrmMusic.Domain", "GrmMusic.Domain\GrmMusic.Domain.csproj", "{5CE01D4C-419B-4316-8518-37B997BE03CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrmMusic.Loader", "GrmMusic.Loader\GrmMusic.Loader.csproj", "{F3818360-1518-46E6-82F8-5D3B07D61B7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrmMusic.Search", "GrmMusic.Search\GrmMusic.Search.csproj", "{A67F341F-2769-415B-9886-7C9062807660}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrmMusic.Loader.Tests", "GrmMusic.Loader.Tests\GrmMusic.Loader.Tests.csproj", "{5B2A7292-9237-4C75-9C39-AFA6B8DC250D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrmMusic.Infrastructure", "GrmMusic.Infrastructure\GrmMusic.Infrastructure.csproj", "{4BFEDE89-9B87-4F1E-ABCC-58A9D5FCB45C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrmMusic.Search.Tests", "GrmMusic.Search.Tests\GrmMusic.Search.Tests.csproj", "{AC6A3F73-CB83-429F-BDFE-E1EAF9DE42BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEB235B2-4FCC-4AF8-A38A-205BDE3BD03B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB235B2-4FCC-4AF8-A38A-205BDE3BD03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB235B2-4FCC-4AF8-A38A-205BDE3BD03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB235B2-4FCC-4AF8-A38A-205BDE3BD03B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CE01D4C-419B-4316-8518-37B997BE03CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CE01D4C-419B-4316-8518-37B997BE03CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CE01D4C-419B-4316-8518-37B997BE03CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CE01D4C-419B-4316-8518-37B997BE03CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3818360-1518-46E6-82F8-5D3B07D61B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3818360-1518-46E6-82F8-5D3B07D61B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3818360-1518-46E6-82F8-5D3B07D61B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3818360-1518-46E6-82F8-5D3B07D61B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67F341F-2769-415B-9886-7C9062807660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67F341F-2769-415B-9886-7C9062807660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67F341F-2769-415B-9886-7C9062807660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67F341F-2769-415B-9886-7C9062807660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B2A7292-9237-4C75-9C39-AFA6B8DC250D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B2A7292-9237-4C75-9C39-AFA6B8DC250D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B2A7292-9237-4C75-9C39-AFA6B8DC250D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B2A7292-9237-4C75-9C39-AFA6B8DC250D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFEDE89-9B87-4F1E-ABCC-58A9D5FCB45C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFEDE89-9B87-4F1E-ABCC-58A9D5FCB45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFEDE89-9B87-4F1E-ABCC-58A9D5FCB45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFEDE89-9B87-4F1E-ABCC-58A9D5FCB45C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC6A3F73-CB83-429F-BDFE-E1EAF9DE42BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC6A3F73-CB83-429F-BDFE-E1EAF9DE42BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC6A3F73-CB83-429F-BDFE-E1EAF9DE42BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC6A3F73-CB83-429F-BDFE-E1EAF9DE42BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3F633C0-E4CB-4172-B7F4-393D16850EAA}
+	EndGlobalSection
+EndGlobal
